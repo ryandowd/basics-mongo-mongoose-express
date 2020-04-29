@@ -6,7 +6,7 @@ const Product = require("./models/product");
 // So it handles the connection between the server and the DB with 'connection pooling'
 mongoose
   .connect(
-    "mongodb+srv://ryand:ryand123@cluster0-oustz.mongodb.net/products_test?retryWrites=true&w=majority"
+    "[ADD MONGDO CONNECTION CREDENTIALS]"
   )
   // Connect returns a promise. So we can use 'then()'
   .then(() => {

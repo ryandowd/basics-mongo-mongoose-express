@@ -1,6 +1,5 @@
 const MongoClient = require("mongodb").MongoClient;
-const url =
-  "mongodb+srv://ryand:ryand123@cluster0-oustz.mongodb.net/products_test?retryWrites=true&w=majority";
+const url = "[ADD MONGDO CONNECTION CREDENTIALS]";
 
 const createProduct = async (req, res, next) => {
   const newProduct = {
